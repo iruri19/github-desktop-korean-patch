@@ -63,6 +63,11 @@ function patch(appRoot) {
   }
   const guideSource = path.join(root, '처음사용자');
   if (fs.existsSync(guideSource)) fs.cpSync(guideSource,path.join(appRoot,'처음사용자'),{recursive:true});
+  else if (fs.existsSync(path.join(root,'GitHub_처음사용자_안내서.pdf'))) {
+    const guideTarget=path.join(appRoot,'처음사용자');
+    fs.mkdirSync(guideTarget,{recursive:true});
+    fs.copyFileSync(path.join(root,'GitHub_처음사용자_안내서.pdf'),path.join(guideTarget,'GitHub_처음사용자_안내서.pdf'));
+  }
   const report = { version:manifest.version,menuLabels,dictionaryEntries:Object.keys(dictionary).length,templateRules:require('./community-template-engine.cjs').ruleCount,sourceRendererUnchanged:digest(path.join(resources,'renderer.js'))===manifest.sourceHashes['renderer.js'] };
   fs.writeFileSync(path.join(appRoot,'korean-patch-report.json'),JSON.stringify(report,null,2));
   console.log(JSON.stringify(report,null,2));
