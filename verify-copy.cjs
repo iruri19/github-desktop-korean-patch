@@ -1,0 +1,32 @@
+'use strict';
+// Checks the packaged patch without opening or capturing any application window.
+const fs = require('node:fs');
+const path = require('node:path');
+const crypto = require('node:crypto');
+const cp = require('node:child_process');
+const manifest = JSON.parse(fs.readFileSync(path.join(__dirname,'manifest.json'),'utf8'));
+manifest.installationRoot = manifest.installationRoot.replace('%LOCALAPPDATA%', process.env.LOCALAPPDATA);
+const target = path.resolve(process.argv[2]);
+const source = path.join(manifest.installationRoot,'app-3.7.0','resources','app');
+const resources = path.join(target,'resources','app');
+const hash = file => crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex');
+function assert(condition, message) { if (!condition) throw new Error(message); }
+for (const [name, expected] of Object.entries(manifest.sourceHashes)) assert(hash(path.join(source,name))===expected,`설치된 원본 변경 감지: ${name}`);
+assert(hash(path.join(resources,'renderer.js'))===manifest.sourceHashes['renderer.js'],'복사본 renderer.js 변경 감지');
+const sourceMain = fs.readFileSync(path.join(source,'main.js'),'utf8');
+const targetMain = fs.readFileSync(path.join(resources,'main.js'),'utf8');
+const normalize = text => text.replace(/label:"((?:\\.|[^"\\])*)"/g,'label:"__LABEL__"');
+assert(normalize(sourceMain)===normalize(targetMain),'메뉴 label 이외의 프로그램 코드가 변경되었습니다.');
+const expectedHtml = fs.readFileSync(path.join(source,'index.html'),'utf8').replace('<script defer src=renderer.js></script>','<script defer src=renderer.js></script><script defer src=korean-ui.js></script>');
+assert(fs.readFileSync(path.join(resources,'index.html'),'utf8')===expectedHtml,'HTML 번역 스크립트 추가 외 변경 감지');
+const beforePackage = JSON.parse(fs.readFileSync(path.join(source,'package.json'),'utf8'));
+const afterPackage = JSON.parse(fs.readFileSync(path.join(resources,'package.json'),'utf8'));
+assert(afterPackage.main==='./ko-main.cjs','독립 설정용 시작 모듈 불일치');
+afterPackage.main=beforePackage.main;
+assert(JSON.stringify(beforePackage)===JSON.stringify(afterPackage),'시작 모듈 이외 패키지 변경 감지');
+for (const name of ['main.js','renderer.js','korean-ui.js','ko-main.cjs','ko-menu.cjs','translate-text.cjs','community-template-engine.cjs']) cp.execFileSync(process.execPath,['--check',path.join(resources,name)],{stdio:'pipe'});
+for (const name of ['korean-ui.js','ko-main.cjs','ko-menu.cjs','ko.json','ko-extra.json','ko-settings.json','ko-workflow.json','ko-expanded.json','ko-community.json','community-templates.json','community-template-engine.cjs','translate-text.cjs']) assert(hash(path.join(resources,name))===hash(path.join(__dirname,name)),`배포 파일이 최신 소스와 다름: ${name}`);
+for (const name of ['main.js','index.html','package.json']) assert(hash(path.join(target,'korean-original-files',name))===manifest.sourceHashes[name],`복원용 백업 불일치: ${name}`);
+const forbidden = cp.spawnSync(process.execPath,[path.join(__dirname,'patch-copy.cjs'),path.join(manifest.installationRoot,'app-3.7.0')],{encoding:'utf8'});
+assert(forbidden.status!==0 && forbidden.stderr.includes('설치된 원본 경로에는 패치를 적용할 수 없습니다'),'원본 적용 차단 실패');
+console.log(JSON.stringify({originalUnchanged:true,rendererUnchanged:true,mainCodeUnchangedExceptLabels:true,restoreBackupsMatch:true,originalPatchBlocked:true,syntaxChecksPassed:true},null,2));

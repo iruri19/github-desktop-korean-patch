@@ -1,0 +1,1027 @@
+[
+  {
+    "key": "about.about-name",
+    "en": "About {{0}}",
+    "ko": "{{0}} 정보"
+  },
+  {
+    "key": "about.build",
+    "en": "Build {{0}}",
+    "ko": "빌드 {{0}}"
+  },
+  {
+    "key": "about.version",
+    "en": "Version {{0}}",
+    "ko": "버전 {{0}}"
+  },
+  {
+    "key": "about.you-have-the-latest-version",
+    "en": "You have the latest version (last checked {{0}})",
+    "ko": "최신 버전이 설치되었습니다(최종 검사 {{0}})"
+  },
+  {
+    "key": "acknowledgements.unknown-license-type",
+    "en": "License: {{0}}",
+    "ko": "라이센스: {{0}}"
+  },
+  {
+    "key": "app-store.pushing-to",
+    "en": "Pushing to {{0}}",
+    "ko": "{{0}}로 푸시"
+  },
+  {
+    "key": "appearance.tab_size_default",
+    "en": "{{0}} (default)",
+    "ko": "{{0}}(기본값)"
+  },
+  {
+    "key": "base-multi-commit-operation.abort-operation",
+    "en": "Abort {{0}}",
+    "ko": "{{0}} 중지"
+  },
+  {
+    "key": "base-multi-commit-operation.continue-operation",
+    "en": "Continue {{0}}",
+    "ko": "{{0}} 계속"
+  },
+  {
+    "key": "base-multi-commit-operation.resolve-conflicts-before-operation",
+    "en": "Resolve conflicts before {{0}}",
+    "ko": "{{0}}을 수행하기 전에 충돌 해결"
+  },
+  {
+    "key": "branch-dropdown.checking-out",
+    "en": "Checking out {{0}}",
+    "ko": "{{0}} 체크아웃 중"
+  },
+  {
+    "key": "branch-dropdown.current-branch-is",
+    "en": "Current branch is {{0}}",
+    "ko": "현재 분기는 {{0}}입니다"
+  },
+  {
+    "key": "branch-dropdown.rebasing-target-branch",
+    "en": "Rebasing {{0}}",
+    "ko": "{{0}}(을)를 리베이스하고 있습니다"
+  },
+  {
+    "key": "branches-container.choose-a-branch-to-marge-into",
+    "en": "Choose a branch to merge into {{0}}",
+    "ko": "{{0}} 에 병합할 브랜치 선택"
+  },
+  {
+    "key": "changes-list.files-description",
+    "en": "{{0}} changed {{1}}",
+    "ko": "변경된 {{1}} ({{0}})"
+  },
+  {
+    "key": "changes-list-filter-options.active-filters",
+    "en": "({{0}} applied)",
+    "ko": "({{0}}개 적용)"
+  },
+  {
+    "key": "changes-list-filter-options.excluded-from-commit-with-number",
+    "en": "Excluded from commit ({{0}})",
+    "ko": "커밋에서 제외됨 ({{0}})"
+  },
+  {
+    "key": "changes-list-filter-options.filter-button-label",
+    "en": "Filter Options {{0}}",
+    "ko": "필터 옵션 {{0}}"
+  },
+  {
+    "key": "changes-list-filter-options.included-in-commit-with-number",
+    "en": "Included in commit ({{0}})",
+    "ko": "커밋에 포함됨 ({{0}})"
+  },
+  {
+    "key": "changes-list-filter-options.modified-files-with-number",
+    "en": "Modified files ({{0}})",
+    "ko": "수정된 파일 ({{0}})"
+  },
+  {
+    "key": "changes-list-filter-options.new-files-with-number",
+    "en": "New files ({{0}})",
+    "ko": "새 파일 ({{0}})"
+  },
+  {
+    "key": "checkout.checking-out-branch",
+    "en": "Checking out branch {{0}}",
+    "ko": "{{0}} 브랜치 체크아웃"
+  },
+  {
+    "key": "cherry-pick-undone.cherry-pick-undone-1",
+    "en": "Cherry-pick undone. Successfully removed the {{0}} copied {{1}} from ",
+    "ko": "체리 선택을 취소합니다. 복사된 {{0}}개의 커밋을 "
+  },
+  {
+    "key": "choose-target-branch.cherry-pick-number-commit-to-a-branch",
+    "en": "Cherry-pick {{0}} {{1}} to a branch",
+    "ko": "{{0}}개의 {{1}}을 분기에 체리 선택"
+  },
+  {
+    "key": "choose-target-branch.ok-button-text-to-1",
+    "en": "{{0}} to ",
+    "ko": " "
+  },
+  {
+    "key": "choose-target-branch.okbutton",
+    "en": "Cherry-pick {{0}} {{1}}",
+    "ko": "{{0}}개의 {{1}}을 체리 선택"
+  },
+  {
+    "key": "clone.cloning-into",
+    "en": "Cloning into {{0}}",
+    "ko": "{{0}}에 복제"
+  },
+  {
+    "key": "cloneable-repository-filter-list.loading-repositories",
+    "en": "Loading repositories from {{0}}…",
+    "ko": "{{0}}에서 리포지토리 로드 중…"
+  },
+  {
+    "key": "cloneable-repository-filter-list.looks-like-no-repositories-2",
+    "en": " on {{0}}.",
+    "ko": "에 대한 리포지토리를 찾을 수 없습니다."
+  },
+  {
+    "key": "cloning-repositories-store.clone",
+    "en": "Cloning into {{0}}",
+    "ko": "{{0}}에 복제"
+  },
+  {
+    "key": "cloning-repository.cloning",
+    "en": "Cloning {{0}}",
+    "ko": "클론 생성 중 {{0}}"
+  },
+  {
+    "key": "commit-drag-element.move-commit-here",
+    "en": "Move {{0}} here",
+    "ko": "{{0}}을(를) 여기로 이동"
+  },
+  {
+    "key": "commit-drag-element.squash-number-commit",
+    "en": "Squash {{0}} commits",
+    "ko": "{{0}}개의 커밋 스쿼시"
+  },
+  {
+    "key": "commit-list-item.cherry-pick-commits",
+    "en": "Cherry-pick {{0}} commits…",
+    "ko": "{{0}}개의 커밋을 체리 선택…"
+  },
+  {
+    "key": "commit-list-item.cherry-pick-commits-darwin",
+    "en": "Cherry-pick {{0}} Commits…",
+    "ko": "{{0}}개의 커밋을 체리 선택…"
+  },
+  {
+    "key": "commit-list-item.reorder-commits",
+    "en": "Reorder {{0}} commits…",
+    "ko": "{{0}}개의 커밋 순서 바꾸기…"
+  },
+  {
+    "key": "commit-list-item.reorder-commits-darwin",
+    "en": "Reorder {{0}} Commits…",
+    "ko": "{{0}}개의 커밋 순서 바꾸기…"
+  },
+  {
+    "key": "commit-list-item.squash-commits",
+    "en": "Squash {{0}} commits…",
+    "ko": "{{0}}개의 커밋을 스쿼시(병합)…"
+  },
+  {
+    "key": "commit-list-item.squash-commits-darwin",
+    "en": "Squash {{0}} Commits…",
+    "ko": "{{0}}개의 커밋을 스쿼시(병합)…"
+  },
+  {
+    "key": "commit-message.commit-count-files",
+    "en": "{{0}} {{1}}",
+    "ko": "{{0}}{{1}}을"
+  },
+  {
+    "key": "commit-message.commit-title-1",
+    "en": "{{0}} {{1}} to ",
+    "ko": "{{1}} "
+  },
+  {
+    "key": "commit-message-avatar.committing-as",
+    "en": "Committing as {{0}}",
+    "ko": "{{0}}로 커밋"
+  },
+  {
+    "key": "commit-message-avatar.git-settings",
+    "en": "{{0}} > Git > Author",
+    "ko": "{{0}} > Git > 계정"
+  },
+  {
+    "key": "commit-summary.this-commit-has-number-tags",
+    "en": "This commit has {{0}} {{1}} to push",
+    "ko": "이 커밋에는 푸시할{{1}}가{{0}}개 있습니다."
+  },
+  {
+    "key": "common.download",
+    "en": "Download {{0}}",
+    "ko": "{{0}} 다운로드"
+  },
+  {
+    "key": "common.opetarion-alias",
+    "en": "{{0}} alias",
+    "ko": "별칭 {{0}}"
+  },
+  {
+    "key": "common.opetarion-alias-darwin",
+    "en": "{{0}} Alias",
+    "ko": "별칭 {{0}}"
+  },
+  {
+    "key": "common.pulling",
+    "en": "Pulling {{0}}",
+    "ko": "{{0}}으로 당기기 중"
+  },
+  {
+    "key": "compare.ahead",
+    "en": "Ahead ({{0}})",
+    "ko": "({{0}}) 앞으로"
+  },
+  {
+    "key": "compare.behind",
+    "en": "Behind ({{0}})",
+    "ko": "({{0}}) 뒤"
+  },
+  {
+    "key": "compare.squash-number-commits",
+    "en": "Squash {{0}} Commits",
+    "ko": "{{0}}개의 커밋 스쿼시(병합)"
+  },
+  {
+    "key": "configure-git-user.use-github-account",
+    "en": "Use my GitHub{{0}} account name and email address",
+    "ko": "기존 GitHub{{0}} 계정 이름, 이메일 주소 사용"
+  },
+  {
+    "key": "confirm-abort-dialog.abort",
+    "en": "Abort {{0}}",
+    "ko": "{{0}} 중지"
+  },
+  {
+    "key": "confirm-abort-dialog.abort-darwin",
+    "en": "Abort {{0}}",
+    "ko": "{{0}} 중지"
+  },
+  {
+    "key": "confirm-abort-dialog.are-you-sure-you-want-to-abort",
+    "en": "Are you sure you want to abort this {{0}}?",
+    "ko": "{{0}}을(를) 취소하시겠습니까?"
+  },
+  {
+    "key": "confirm-abort-dialog.confirm-abort",
+    "en": "Confirm abort {{0}}",
+    "ko": "{{0}} 중지 확인"
+  },
+  {
+    "key": "confirm-abort-dialog.confirm-abort-darwin",
+    "en": "Confirm Abort {{0}}",
+    "ko": "{{0}} 중지 확인"
+  },
+  {
+    "key": "confirm-remove-repository.also-move-this-repository",
+    "en": "Also move this repository to {{0}}",
+    "ko": "이 리포지토리도 {{0}}(으)로 이동합니다."
+  },
+  {
+    "key": "conflicts-dialog.many-conflicted-files-have-been-resolved",
+    "en": "{{0}} conflicted {{1}} been resolved.",
+    "ko": "{{0}} 파일 충돌이 해결되었습니다."
+  },
+  {
+    "key": "copilot-custom-providers-dialog.many-models",
+    "en": "{{0}} models",
+    "ko": "{{0}} 모델"
+  },
+  {
+    "key": "copilot-error.retry-after",
+    "en": "You can try again in {{0}} {{1}}.",
+    "ko": "{{0}}{{1}} 후에 다시 시도해 보세요."
+  },
+  {
+    "key": "copilot-error.retry-after-generic",
+    "en": "You can try again after {{0}}.",
+    "ko": "{{0}} 후에 다시 시도해 보세요."
+  },
+  {
+    "key": "copilot-model-picker.default-model",
+    "en": "{{0}}(default)",
+    "ko": "{{0}} (기본값)"
+  },
+  {
+    "key": "copilot-model-picker.use-of-credits",
+    "en": "Use of credits: {{0}}",
+    "ko": "크레딧 사용량: {{0}}"
+  },
+  {
+    "key": "core.error.you-are-not-logged",
+    "en": "- You are not logged in to your account: see {{0}}",
+    "ko": "- 계정에 로그인하지 않았습니다. {{0}} 참조"
+  },
+  {
+    "key": "create-branch-dialog.branch-will-be-based-on-the-commit",
+    "en": "Your new branch will be based on the commit {{0}} ( {{1}}) from your repository.",
+    "ko": "새 브랜치는 리포지토리의 커밋 {{0}}({{1}})을 기반으로 만들어집니다."
+  },
+  {
+    "key": "create-branch-dialog.do-not-have-any-branch-checked-out",
+    "en": "You do not currently have any branch checked out (your HEAD reference is detached). As such your new branch will be based on your currently checked out commit ({{0}}).",
+    "ko": "현재 체크아웃된 브랜치가 없습니다(HEAD 참조가 분리됨). 따라서 새 브랜치는 현재 체크아웃된 커밋({{0}})을 기반으로 만들어집니다."
+  },
+  {
+    "key": "create-tag-dialog.no-matches-found",
+    "en": "No matches found for '{{0}}'",
+    "ko": "'{{0}}'과(와) 일치하는 항목을 찾을 수 없습니다."
+  },
+  {
+    "key": "create-tag-dialog.tag-name-too-long",
+    "en": "The tag name cannot be longer than {{0}} characters",
+    "ko": "태그 이름은 {{0}}자 미만이어야 합니다."
+  },
+  {
+    "key": "diff-contents-warning.this-file-uses-a-to-b-checjked-out-1",
+    "en": "This file uses {{0}} line endings, but ",
+    "ko": "이 파일은 {{0}}의 줄 바꿈 코드를 사용하지만"
+  },
+  {
+    "key": "diff-contents-warning.this-file-uses-a-to-b-checjked-out-3",
+    "en": " to {{0}} the next time the file is checked out.",
+    "ko": "입니다."
+  },
+  {
+    "key": "diff-options.caption-diff",
+    "en": "Diff {{0}}",
+    "ko": "차이 감지 {{0}}"
+  },
+  {
+    "key": "discard-changes-dialog.are-you-sure-discard-all-changed",
+    "en": "Are you sure you want to discard all {{0}} changed files?",
+    "ko": "변경된 {{0}} 파일을 모두 삭제하시겠습니까?"
+  },
+  {
+    "key": "discard-changes-dialog.changes-can-be-restored",
+    "en": "Changes can be restored by retrieving them from the {{0}}.",
+    "ko": "변경 사항은 {{0}}에서 검색하여 복원할 수 있습니다."
+  },
+  {
+    "key": "discard-changes-retry-dialog.changes-will-be-unrecoverable",
+    "en": "These changes will be unrecoverable from the {{0}}.",
+    "ko": "이 변경사항은 {{0}}에서 복구할 수 없습니다."
+  },
+  {
+    "key": "discard-changes-retry-dialog.delete-items-immediately",
+    "en": "The {{0}} is configured to delete items immediately.",
+    "ko": "{{0}}은 항목을 즉시 삭제하도록 설정되어 있습니다."
+  },
+  {
+    "key": "discard-changes-retry-dialog.fail-to-discard-changes",
+    "en": "Failed to discard changes to {{0}}.",
+    "ko": "{{0}}의 변경사항을 삭제할 수 없습니다."
+  },
+  {
+    "key": "edit-byok-model-dialog.model-identifier-exists",
+    "en": "Another model with the identifier '{{0}}' already exists.",
+    "ko": "식별자 '{{0}}'의 모델이 이미 있습니다."
+  },
+  {
+    "key": "expandable-commit-summary.added-lines",
+    "en": "{{0}} added lines",
+    "ko": "{{0}}행 추가"
+  },
+  {
+    "key": "expandable-commit-summary.number-unreachable-commits",
+    "en": "{{0}} unreachable {{1}}",
+    "ko": "불가능한 {{0}}{{1}}"
+  },
+  {
+    "key": "expandable-commit-summary.removed-lines",
+    "en": "{{0}} removed lines",
+    "ko": "{{0}}행 삭제"
+  },
+  {
+    "key": "fetch.fetching",
+    "en": "Fetching {{0}}",
+    "ko": "{{0}} 가져오기 중"
+  },
+  {
+    "key": "filter-changes-list.Adjust the filters",
+    "en": "Adjust the filters to see all {{0}} changes",
+    "ko": "{{0}}개의 변경 파일을 모두 보려면 필터를 조정하세요."
+  },
+  {
+    "key": "filter-changes-list.discard-selected-changes",
+    "en": "Discard {{0}} selected changes",
+    "ko": "선택한 {{0}}개의 변경사항을 삭제합니다."
+  },
+  {
+    "key": "filter-changes-list.discard-selected-changes-darwin",
+    "en": "Discard {{0}} Selected Changes",
+    "ko": "선택한 {{0}}개의 변경사항을 삭제합니다."
+  },
+  {
+    "key": "filter-changes-list.files-description",
+    "en": "{{0}}{{1}} changed {{2}}",
+    "ko": "{{0}}{{1}}개의 수정된 {{2}}"
+  },
+  {
+    "key": "filter-changes-list.ignore-all-file-add-to-gitignore",
+    "en": "Ignore all {{0}} files (add to .gitignore)",
+    "ko": "모든 {{0}} 파일 제외(.gitignore에 추가)"
+  },
+  {
+    "key": "filter-changes-list.ignore-all-file-add-to-gitignore-darwin",
+    "en": "Ignore All {{0}} Files (Add to .gitignore)",
+    "ko": "모든 {{0}} 파일 제외(.gitignore에 추가)"
+  },
+  {
+    "key": "filter-changes-list.ignore-selected-file-add-to-gitignore",
+    "en": "Ignore {{0}} selected files (add to .gitignore)",
+    "ko": "선택한 {{0}} 파일을 무시합니다(.gitignore에 추가)"
+  },
+  {
+    "key": "filter-changes-list.ignore-selected-file-add-to-gitignore-darwin",
+    "en": "Ignore {{0}} Selected Files (Add to .gitignore)",
+    "ko": "선택한 {{0}} 파일을 무시합니다(.gitignore에 추가)"
+  },
+  {
+    "key": "filter-changes-list.number-description",
+    "en": "{{0}} of ",
+    "ko": "{{0}}/"
+  },
+  {
+    "key": "filter-changes-list.open-in-external-editor",
+    "en": "Open in {{0}}",
+    "ko": "{{0}}에서 열기"
+  },
+  {
+    "key": "filter-changes-logic.one-and-another",
+    "en": "{{0}} and {{1}}",
+    "ko": "{{0}}, {{1}}"
+  },
+  {
+    "key": "filter-changes-logic.other-filters-and-last",
+    "en": "{{0}}, and {{1}}",
+    "ko": "{{0}}, {{1}}"
+  },
+  {
+    "key": "filter-changes-logic.sorry-i-cannot-find-any-changed-files",
+    "en": "Sorry, I can't find any changed files matching the following filters: {{0}}",
+    "ko": "죄송합니다. 다음 필터와 일치하는 변경된 파일을 찾을 수 없습니다: {{0}}"
+  },
+  {
+    "key": "git.generates-comments-using-copilot",
+    "en": "GitHub Desktop generates commit comments using Copilot's credits. Copilot quota will be reset on {{0}}.",
+    "ko": "GitHub Desktop은 Copilot 크레딧을 사용하여 커밋 주석을 생성합니다. Copilot의 할당량은 {{0}}으로 재설정됩니다."
+  },
+  {
+    "key": "git-email-not-found-warning.this-email-address",
+    "en": "This email address {{0}} {{1}}. {{2}}",
+    "ko": "이 이메일 주소는 {{1}}에 {{0}}. {{2}}"
+  },
+  {
+    "key": "git-email-not-found-warning.your-account",
+    "en": "your {{0}} account",
+    "ko": "{{0}} 계정"
+  },
+  {
+    "key": "integrations.install-editor-name",
+    "en": "Install {{0}}?",
+    "ko": "{{0}}을(를) 설치하시겠습니까?"
+  },
+  {
+    "key": "launch.custom-editor-at-path",
+    "en": "custom editor at path '{{0}}'",
+    "ko": "외부 편집기 경로 '{{0}}'"
+  },
+  {
+    "key": "launch.error.could-not-find-executable",
+    "en": "Could not find executable for '{{0}}' at path '{{1}}'. Please open {{2}} and select an available editor.",
+    "ko": "'{{0}}' 경로에서 '{{1}}' 실행 파일을 찾을 수 없습니다. {{2}}을(를) 열어 사용 가능한 편집기를 선택하세요."
+  },
+  {
+    "key": "local-changes-overwritten-dialog.unable-to-action",
+    "en": "Unable to {{0}} when changes are present on your branch. {{1}}",
+    "ko": "브랜치에 변경사항이 있는 경우 {{0}}할 수 없습니다.{{1}}"
+  },
+  {
+    "key": "lookup.error.the-editor-could-not-be-found",
+    "en": "The editor '{{0}}' could not be found. Please open {{1}} and choose an available editor.",
+    "ko": "편집기 '{{0}}'을(를) 찾을 수 없습니다. {{1}}을(를) 열어 사용 가능한 편집기를 선택하세요."
+  },
+  {
+    "key": "menu.open-in-external-editor",
+    "en": "&Open in {{0}}",
+    "ko": "{{0}}에서 열기(&O)"
+  },
+  {
+    "key": "menu.open-in-external-editor-darwin",
+    "en": "Open in {{0}}",
+    "ko": "{{0}}에서 열기"
+  },
+  {
+    "key": "menu.open-in-shell",
+    "en": "O&pen in {{0}}",
+    "ko": "{{0}}에서 열기(&P)"
+  },
+  {
+    "key": "menu.open-in-shell-darwin",
+    "en": "Open in {{0}}",
+    "ko": "{{0}}에서 열기"
+  },
+  {
+    "key": "menu.update-branch-from",
+    "en": "&Update from {{0}}",
+    "ko": "{{0}} 업데이트(&U)"
+  },
+  {
+    "key": "menu.update-branch-from-darwin",
+    "en": "Update from {{0}}",
+    "ko": "{{0}} 업데이트"
+  },
+  {
+    "key": "merge.conflicted-message-2",
+    "en": " {{0}} conflicted {{1}}",
+    "ko": " "
+  },
+  {
+    "key": "merge-choose-branch-dialog.merge-into-1",
+    "en": "{{0}}Merge into ",
+    "ko": "{{0}} 병합을 "
+  },
+  {
+    "key": "merge-choose-branch-dialog.number-commit",
+    "en": "{{0}} {{1}}",
+    "ko": "{{0}}{{1}}"
+  },
+  {
+    "key": "merge-choose-branch-dialog.number-conflicted-file",
+    "en": "{{0}} conflicted {{1}}",
+    "ko": "{{0}}{{1}}이(가) 충돌했습니다."
+  },
+  {
+    "key": "missing-repository.cannot-find",
+    "en": "Can't find \"{{0}}\"",
+    "ko": "\"{{0}}\"을(를) 찾을 수 없습니다"
+  },
+  {
+    "key": "multiple-selection.number-files-seletced",
+    "en": "{{0}} files selected",
+    "ko": "{{0}}파일 선택 중"
+  },
+  {
+    "key": "no-changes.commit-on-remote-that-do-not-2",
+    "en": ") has {{0}} on {{1}} that {{2}} exist on your machine.",
+    "ko": ")에는 이 PC에 반영되지 않은 커밋이 있습니다."
+  },
+  {
+    "key": "no-changes.menu",
+    "en": "{{0}} menu or ",
+    "ko": "{{0}} 메뉴에서 열기"
+  },
+  {
+    "key": "no-changes.multiple-local-commits",
+    "en": "{{0}} local commits",
+    "ko": "{{0}}개의 로컬 커밋"
+  },
+  {
+    "key": "no-changes.multiple-tags",
+    "en": "{{0}} tags",
+    "ko": "{{0}}개의 태그"
+  },
+  {
+    "key": "no-changes.pull",
+    "en": "Pull {{0}}",
+    "ko": "{{0}}에서 끌어오기"
+  },
+  {
+    "key": "no-changes.pull-number-commits-from-the-remote",
+    "en": "Pull {{0}} {{1}} from the {{2}} remote",
+    "ko": "{{2}} 원격에서 {{0}}{{1}}을 가져옵니다."
+  },
+  {
+    "key": "no-changes.push",
+    "en": "Push {{0}}",
+    "ko": "{{0}}으로 푸시"
+  },
+  {
+    "key": "no-changes.push-to-the-remote",
+    "en": "Push {{0}} to the {{1}} remote",
+    "ko": "{{0}}을 {{1}}로 푸시합니다"
+  },
+  {
+    "key": "no-changes.the-current-branch-2",
+    "en": ") hasn't been published to the remote yet. By publishing it {{0}} you can share it, {{1}} and collaborate with others.",
+    "ko": ")는 아직 원격으로 게시되지 않은 것 같습니다.By publishing it {{0}} you can share it, {{1}} and collaborate with others."
+  },
+  {
+    "key": "no-changes.view-the-files-of-your-repository",
+    "en": "View the files of your repository in {{0}}",
+    "ko": "{{0}}에서 리포지토리의 파일 보기"
+  },
+  {
+    "key": "no-changes.you-have-number-change-in-progress",
+    "en": "You have {{0}} {{1}} in progress that you have not yet committed.",
+    "ko": "아직 커밋되지 않은 수정 중 {{1}}이(가) {{0}} 있습니다."
+  },
+  {
+    "key": "no-changes.you-have-operation",
+    "en": "You have {{0}} waiting to be pushed to {{1}}.",
+    "ko": "{{0}}이 {{1}}에 푸시를 기다리고 있습니다."
+  },
+  {
+    "key": "notifications.make-sure-notifications-1",
+    "en": " Make sure notifications are {{0}} for GitHub Desktop in the ",
+    "ko": " "
+  },
+  {
+    "key": "open-file.unable-to-open-file",
+    "en": "Unable to open file {{0}} in an external program. Please check you have a program associated with this file extension",
+    "ko": "{{0}}을(를) 열 수 없습니다. 프로그램이 이 파일의 확장자와 연결되어 있는지 확인하십시오"
+  },
+  {
+    "key": "open-pull-request-dialog.button_title",
+    "en": "{{0}} pull request on GitHub{{1}}.",
+    "ko": "GitHub{{1}}에서 끌어오기 요청을 {{0}}합니다."
+  },
+  {
+    "key": "open-pull-request-dialog.request",
+    "en": "{{0}} Pull request",
+    "ko": "풀 요청의 {{0}}"
+  },
+  {
+    "key": "open-pull-request-dialog.request_darwin",
+    "en": "{{0}} Pull Request",
+    "ko": "풀 요청 {{0}}"
+  },
+  {
+    "key": "open-pull-request-header.added-lines",
+    "en": "{{0}} added lines",
+    "ko": "{{0}}행 추가"
+  },
+  {
+    "key": "open-pull-request-header.merge-into-1",
+    "en": "Merge {{0}} into",
+    "ko": "{{0}}을 병합합니다. 병합 대상:"
+  },
+  {
+    "key": "open-pull-request-header.multiple-commits",
+    "en": "{{0}} commits",
+    "ko": "{{0}}개의 커밋"
+  },
+  {
+    "key": "open-pull-request-header.one-or-less-commit",
+    "en": "{{0}} commit",
+    "ko": "{{0}}개의 커밋"
+  },
+  {
+    "key": "open-pull-request-header.removed-lines",
+    "en": "{{0}} removed lines",
+    "ko": "{{0}}행 삭제"
+  },
+  {
+    "key": "progress-dialog.commit-0-of-1",
+    "en": "Commit {{0}} of {{1}}",
+    "ko": "커밋 {{0}}/{{1}}"
+  },
+  {
+    "key": "progress-dialog.in-progress",
+    "en": "{{0}} in progress",
+    "ko": "{{0}} 중간"
+  },
+  {
+    "key": "publish-repository.will-be-create-as",
+    "en": "Will be created as {{0}}",
+    "ko": "{{0}}으로 생성됨"
+  },
+  {
+    "key": "pull-request-files-changed.open-in-external-editor",
+    "en": "Open in {{0}}",
+    "ko": "{{0}}에서 열기"
+  },
+  {
+    "key": "pull-request-list.pull-requests-in",
+    "en": "Pull requests in {{0}}",
+    "ko": "{{0}}의 끌어오기 요청"
+  },
+  {
+    "key": "push-branch-commits.local-commit",
+    "en": "{{0}} local commit",
+    "ko": "{{0}}개의 로컬 커밋"
+  },
+  {
+    "key": "push-branch-commits.local-commits",
+    "en": "{{0}} local commits",
+    "ko": "{{0}}개의 로컬 커밋"
+  },
+  {
+    "key": "push-pull-button.fetch",
+    "en": "Fetch {{0}}",
+    "ko": "{{0}}(으)로 가져오기"
+  },
+  {
+    "key": "push-pull-button.force-push",
+    "en": "Force push {{0}}",
+    "ko": "{{0}} 강제 푸시"
+  },
+  {
+    "key": "push-pull-button.pull",
+    "en": "Pull {{0}}",
+    "ko": "{{0}}로 끌어오기"
+  },
+  {
+    "key": "push-pull-button.pull-with-rebase",
+    "en": "Pull {{0}} with rebase",
+    "ko": "리베이스 후 {{0}}로 끌어오기"
+  },
+  {
+    "key": "push-pull-button.push",
+    "en": "Push {{0}}",
+    "ko": "{{0}}로 푸시"
+  },
+  {
+    "key": "push-pull-button-dropdown.fetch",
+    "en": "Fetch {{0}}}",
+    "ko": "{{0}} 가져오기"
+  },
+  {
+    "key": "push-pull-button-dropdown.fetch-the-latest-changes",
+    "en": "Fetch the latest changes from {{0}}",
+    "ko": "{{0}}에서 최신 변경사항 가져오기"
+  },
+  {
+    "key": "push-pull-button-dropdown.force-push",
+    "en": "Force push {{0}}",
+    "ko": "{{0}} 강제 푸시"
+  },
+  {
+    "key": "push-pull-button-dropdown.overwrite-any-changes",
+    "en": "Overwrite any changes on {{0}} with your local changes",
+    "ko": "{{0}}의 변경 내용을 로컬 변경 사항으로 덮어씁니다"
+  },
+  {
+    "key": "rebase-choose-branch-dialog.number-commit",
+    "en": " {{0}} {{1}}",
+    "ko": "{{0}}{{1}}"
+  },
+  {
+    "key": "ref-name-text-box.get-warning-message-as-string",
+    "en": "Warning: Will be {{0}} as {{1}}. ",
+    "ko": "경고: {{1}}(으)로 {{0}}됩니다."
+  },
+  {
+    "key": "ref-name-text-box.render-warning-message-1",
+    "en": "Will be {{0}} as ",
+    "ko": " "
+  },
+  {
+    "key": "release-notes-dialog.title",
+    "en": "Version {{0}}",
+    "ko": "버전 {{0}}"
+  },
+  {
+    "key": "remote.primary-remote-repository",
+    "en": "Primary remote repository ({{0}})",
+    "ko": "주요 원격 리포지토리({{0}})"
+  },
+  {
+    "key": "remote.primary-remote-repository-darwin",
+    "en": "Primary Remote Repository ({{0}})",
+    "ko": "주요 원격 리포지토리({{0}})"
+  },
+  {
+    "key": "rename-branch-dialog.rename-branch-name",
+    "en": "Rename {{0}}",
+    "ko": "{{0}}의 분기 이름 변경"
+  },
+  {
+    "key": "render-banner.reorder-of-commit-undone",
+    "en": "Reorder of {{0}} {{1}} undone.",
+    "ko": "{{0}}{{1}}을(를) 정렬할 수 없습니다."
+  },
+  {
+    "key": "render-banner.squash-of-commit-undone",
+    "en": "Squash of {{0}} {{1}} undone.",
+    "ko": "{{0}}{{1}}을(를) 요약할 수 없습니다."
+  },
+  {
+    "key": "render-banner.successfully-reordered-commit",
+    "en": "Successfully reordered {{0}} {{1}}.",
+    "ko": "{{0}}{{1}}의 정렬에 성공했습니다."
+  },
+  {
+    "key": "render-functions.many-conflicted-files",
+    "en": "{{0}} conflicted files",
+    "ko": "{{0}} 파일이 충돌합니다"
+  },
+  {
+    "key": "repository-list-item-context-menu.open-in-editor",
+    "en": "Open in {{0}}",
+    "ko": "{{0}}에서 열기"
+  },
+  {
+    "key": "repository-list-item-context-menu.open-in-shell",
+    "en": "Open in {{0}}",
+    "ko": "{{0}}에서 열기"
+  },
+  {
+    "key": "saml-reauth-required.the-name-organization-has-enabled",
+    "en": "The \"{{0}}\" organization has enabled or enforced SAML SSO. To access this repository, you must sign in again and grant GitHub Desktop permission to access the organization's repositories.",
+    "ko": "조직 \"{{0}}\"이(가) SAML SSO를 사용하거나 적용하고 있습니다. 이 저장소에 액세스하려면 다시 로그인하고 GitHub Desktop에 조직의 저장소에 대한 액세스 권한을 부여해야 합니다."
+  },
+  {
+    "key": "selected-commits.number-files-changed",
+    "en": "{{0}} changed {{1}}",
+    "ko": "{{0}}{{1}} 변경"
+  },
+  {
+    "key": "selected-commits.open-in-external-editor",
+    "en": "Open in {{0}}",
+    "ko": "{{0}}에서 열기"
+  },
+  {
+    "key": "shared.error.could-not-find-executable",
+    "en": "Could not find executable for '{{0}}' at path '{{1}}'.  Please open {{2}} and select an available shell.",
+    "ko": "'{{0}}'을(를) 실행할 때 '{{1}}' 파일을 찾을 수 없습니다. {{2}}을(를) 열어 사용 가능한 셸을 선택하세요."
+  },
+  {
+    "key": "shared.error.could-not-find-executable-shell",
+    "en": "Could not find executable for custom shell at path '{{0}}'.  Please open {{1}} and select an available shell.",
+    "ko": "경로 '{{0}}'에서 셸 실행 파일을 찾을 수 없습니다. {{1}}을(를) 열어 사용 가능한 셸을 선택하세요."
+  },
+  {
+    "key": "show-uncaught-exception.message",
+    "en": "GitHub Desktop has encountered an unrecoverable error and will need to restart.\n This has been reported to the team, but if you encounter this repeatedly please report  this issue to the GitHub Desktop issue tracker.\n {{0}}",
+    "ko": "GitHub Desktop에서 복구할 수 없는 오류가 발생하여 다시 시작해야 합니다.\n\n이 오류는 팀에 보고되었지만 반복적으로 발생하는 경우 이 문제를 GitHub Desktop Issue Tracker에 보고하십시오.\n\n{{0}}"
+  },
+  {
+    "key": "side-by-side-diff.discard",
+    "en": "Discard {{0}} line{{1}}{{2}}",
+    "ko": "{{0}}행 삭제 {{2}}"
+  },
+  {
+    "key": "side-by-side-diff.discard-darwin",
+    "en": "Discard {{0}} Line{{1}}{{2}}",
+    "ko": "{{0}}행 삭제 {{2}}"
+  },
+  {
+    "key": "stash-and-switch-branch-dialog.bring-my-changes-to-branch-name",
+    "en": "Bring my changes to {{0}}",
+    "ko": "변경 내용을 {{0}}에 반영"
+  },
+  {
+    "key": "stash-and-switch-branch-dialog.leave-my-changes-on-branch-name",
+    "en": "Leave my changes on {{0}}",
+    "ko": "변경사항을 {{0}}에 남겨두고 전환"
+  },
+  {
+    "key": "stash-diff-header.file-does-not-exist",
+    "en": "File does not exist on {{0}}.",
+    "ko": "파일이 {{0}}에 없습니다."
+  },
+  {
+    "key": "stash-diff-header.number-onflicts",
+    "en": "{{0}} conflicts",
+    "ko": "{{0}}개의 충돌"
+  },
+  {
+    "key": "stash-diff-header.open-in",
+    "en": "Open in {{0}}",
+    "ko": "{{0}}에서 열기"
+  },
+  {
+    "key": "status.delete-suffix-on-branch",
+    "en": " on {{0}}",
+    "ko": "{{0}}의"
+  },
+  {
+    "key": "status.do-not-include-this-file",
+    "en": "Do not include this file{{0}}",
+    "ko": "{{0}} 파일을 포함하지 않음"
+  },
+  {
+    "key": "status.suffix-from-branch",
+    "en": " from {{0}}",
+    "ko": "{{0}}에서"
+  },
+  {
+    "key": "status.use-the-added-file",
+    "en": "Use the added file{{0}}",
+    "ko": "{{0}} 파일 추가"
+  },
+  {
+    "key": "status.use-the-modified-file",
+    "en": "Use the modified file{{0}}",
+    "ko": "{{0}} 파일 업데이트"
+  },
+  {
+    "key": "status.using-the-added-file",
+    "en": "Using the added file{{0}}",
+    "ko": "{{0}}추가한 파일 사용"
+  },
+  {
+    "key": "status.using-the-deleted-file",
+    "en": "Using the deleted file{{0}}",
+    "ko": "{{0}} 삭제된 파일 사용"
+  },
+  {
+    "key": "status.using-the-modified-file",
+    "en": "Using the modified file{{0}}",
+    "ko": "{{0}}업데이트된 파일 사용"
+  },
+  {
+    "key": "submodule-diff.this-submodule-has-changes",
+    "en": "This submodule has {{0}} changes. Those changes must be committed inside of the submodule before they can be part of the parent repository.",
+    "ko": "이 하위 모듈은 {{0}}입니다. 이러한 변경 사항은 상위 저장소의 일부가 되기 전에 하위 모듈 내에서 커밋해야 합니다."
+  },
+  {
+    "key": "successful-cherry-pick.successfully-copied-1",
+    "en": "Successfully copied {{0}} {{1}} to",
+    "ko": "{{0}}개의 커밋을 "
+  },
+  {
+    "key": "successful-squash.successfully-squashed",
+    "en": "Successfully squashed {{0}} {{1}}.",
+    "ko": "{{0}}{{1}}의 스쿼시(결합)에 성공했습니다."
+  },
+  {
+    "key": "thank-you.thank-you-message",
+    "en": "Thanks so much for all your hard work on GitHub Desktop{{0}}. We're so grateful for your willingness to contribute and make the app better for everyone!",
+    "ko": "GitHub Desktop {{0}} 출시에 많은 노력을 기울여 주셔서 감사합니다. 여러분의 적극적인 기여와 앱을 모두에게 더 잘 만들어 주셔서 감사합니다."
+  },
+  {
+    "key": "thank-you.thank-you-title",
+    "en": "Thank you {{0}}! 🎉",
+    "ko": "{{0}} 님, 감사합니다! 🎉"
+  },
+  {
+    "key": "tutorial-panel.a-branch-allows-you-to-work",
+    "en": "A branch allows you to work on different versions of a repository at one time. Create a branch by going into the branch menu in the top bar and clicking \"{{0}}\".",
+    "ko": "브랜치를 사용하면 한 번에 다른 버전의 리포지토리에서 작업할 수 있습니다. 브랜치를 만들려면 화면 상단의 도구 모음의 브랜치 메뉴로 이동하여 \"{{0}}\"을 클릭합니다."
+  },
+  {
+    "key": "tutorial-panel.open-the-editor-name-website",
+    "en": "Open the {{0}} website",
+    "ko": "{{0}}의 웹사이트 열기"
+  },
+  {
+    "key": "untrusted-certificate.gitHub-desktop-cannot-verify-1",
+    "en": "GitHub Desktop cannot verify the identity of {{0}}. The  certificate ({{1}}) is invalid or untrusted. ",
+    "ko": "GitHub 데스크톱에서 {{0}}의 ID를 확인할 수 없습니다. 인증서({{1}})가 잘못되었거나 신뢰할 수 없습니다."
+  },
+  {
+    "key": "update-available.an-optimized-arm-version-1",
+    "en": "An optimized version of GitHub Desktop is available for your  {{0}} machine and will be installed at the next launch or ",
+    "ko": "당신의 {{0}} PC에 최적화된 GitHub Desktop 버전을 사용할 수 있으며 다음 부팅 시 설치됩니다. 또는 지금 "
+  },
+  {
+    "key": "update-available.exciting-new-features-1",
+    "en": "Exciting new features have been added{{0}}. See ",
+    "ko": "흥미로운 새로운 기능이 {{0}}에 추가되었습니다."
+  },
+  {
+    "key": "warn-force-push-dialog.are-you-sure-operation",
+    "en": "Are you sure you want to {{0}}?",
+    "ko": "정말 {{0}}을 사용하시겠습니까?"
+  },
+  {
+    "key": "warn-force-push-dialog.begin-operation",
+    "en": "Begin {{0}}",
+    "ko": "{{0}} 시작"
+  },
+  {
+    "key": "warn-force-push-dialog.end-of-the-operation-flow",
+    "en": "At the end of the {{0}} flow, GitHub Desktop will enable you to force push the branch to update the upstream branch. Force pushing will alter the history on the remote and potentially cause problems for others collaborating on this branch.",
+    "ko": "{{0}}의 끝에서 GitHub Desktop을 사용하면 지점을 강제로 푸시하여 업스트림 지점을 업데이트할 수 있습니다."
+  },
+  {
+    "key": "warn-force-push-dialog.require-force-push",
+    "en": "{{0}} will require force push",
+    "ko": "{{0}}은 강제 푸시가 필요합니다"
+  },
+  {
+    "key": "warn-force-push-dialog.require-force-push-darwin",
+    "en": "{{0}} Will Require Force Push",
+    "ko": "{{0}}은 강제 푸시가 필요합니다"
+  },
+  {
+    "key": "worktree-dropdown.current-worktree-tooltip",
+    "en": "Current worktree is {{0}}",
+    "ko": "현재 worktree는 {{0}}"
+  },
+  {
+    "key": "worktree-list.linked-worktrees",
+    "en": "Linked {{0}}s",
+    "ko": "연결된 {{0}}"
+  },
+  {
+    "key": "worktree-list.main-worktree",
+    "en": "Main {{0}}",
+    "ko": "기본 {{0}}"
+  }
+]

@@ -1,0 +1,8 @@
+GitHubDesktop-Korean-*/
+korean-user-data/
+korean-profile.json
+.tooling/
+.validation-copy/
+node_modules/
+*.log
+*.zip

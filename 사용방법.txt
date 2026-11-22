@@ -1,0 +1,6 @@
+﻿GitHub Desktop 한국어 패치 v0.4.0
+
+설치 방법은 README.md와 처음사용자/안내서 PDF를 확인하세요.
+Create-Korean-Copy.cmd 실행 → 생성된 v0.4 폴더의 Start-Korean.cmd 실행
+지원: Windows, GitHub Desktop 3.7.0 지정 해시, Node.js 필요
+공식 배포판이 아닌 비공식 패치입니다. 전체 화면 100% 번역을 보장하지 않습니다.

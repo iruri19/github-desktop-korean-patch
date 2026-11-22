@@ -1,0 +1,11 @@
+{
+  "version": "3.7.0",
+  "patchVersion": "0.4.0",
+  "sourceHashes": {
+    "main.js": "ae4dd2496f252800ec602b72e33ca833b22e3a0c4b11004e7c345e7a7e72c69b",
+    "renderer.js": "2205b9ef6abb65e8dfdae4fbefcf943bc8e9f0d07f3979a4b602444e9f31a754",
+    "index.html": "b1703d6be63a6ce96468e699518ca62c2dcea6a190be98bfbfddc5ca6e4f286b",
+    "package.json": "7869d160f45089e2c2afb3b132e208fd15b700a2ae22649d091569d5778f4fb2"
+  },
+  "installationRoot": "%LOCALAPPDATA%/GitHubDesktop"
+}
